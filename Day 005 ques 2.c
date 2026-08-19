@@ -3,7 +3,6 @@ Q10: Write a program to input time in seconds and convert it to hours:minutes:se
 #include<stdio.h>
 int main(){
 
-
 int total_seconds;
 int hours;
 int minutes;
