@@ -14,7 +14,6 @@ printf("%d",sum);
 
 
 /*
-
 Sample Test Cases:
 Input 1:
 3 4
