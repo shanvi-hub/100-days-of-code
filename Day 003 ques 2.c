@@ -1,29 +1,34 @@
- Q5: Write a program to convert temperature from Celsius to Fahrenheit.
+Q6: Write a program to swap two numbers using a third variable.
 
-#include<stdio.h>
-int main(){
-    
-    float celsius;
-    float fahrenheit;
+ #include <stdio.h>
+  int main() {
+    int num1;
+    int num2;
+    int temp;
 
-    scanf("%f", &celsius);
+    if (scanf("%d %d", &num1, &num2) != 2) {
+        return 1; 
+    }
+ 
+    temp = num1;
+    num1 = num2;
+    num2 = temp;
 
-    fahrenheit = (celsius * 9/5)+32;
-    printf("%f\n", fahrenheit);
-
+    printf("After swap: %d %d\n", num1, num2);
+ 
 }
 
 
 /*
 Sample Test Cases:
 Input 1:
-0
+3 5
 Output 1:
-Fahrenheit=32
+After swap: 5 3
 
 Input 2:
-100
+-1 1
 Output 2:
-Fahrenheit=212
+After swap: 1 -1
 
 */
