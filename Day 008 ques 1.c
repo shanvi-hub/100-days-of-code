@@ -1,20 +1,26 @@
-Q16: Write a program to input three numbers and find the largest among them using if–else.
+Q15: Write a program to input a character and check whether it is an uppercase alphabet, lowercase alphabet, digit, or special character.
 
-#include<stdio.h>
-int main(){
+#include <stdio.h>
 
-int num1, num2, num3;
+int main() {
 
-    scanf("%d %d %d", &num1, &num2, &num3);
+    char ch;
 
-    if (num1 >= num2 && num1 >= num3) {
-        printf("Largest is %d\n", num1);
+    printf("Enter a character: ");/
+
+    scanf("%c", &ch);
+
+    if (ch >= 'A' && ch <= 'Z') {
+        printf("Uppercase alphabet\n");
     } 
-    else if (num2 >= num1 && num2 >= num3) {
-        printf("Largest is %d\n", num2);
+    else if (ch >= 'a' && ch <= 'z') {
+        printf("Lowercase alphabet\n");
+    } 
+    else if (ch >= '0' && ch <= '9') {
+        printf("Digit\n");
     } 
     else {
-        printf("Largest is %d\n", num3);
+        printf("Special character\n");
     }
 
 }
@@ -23,13 +29,23 @@ int num1, num2, num3;
 /*
 Sample Test Cases:
 Input 1:
-3 7 5
+A
 Output 1:
-Largest is 7
+Uppercase alphabet
 
 Input 2:
--1 -5 0
+a
 Output 2:
-Largest is 0
+Lowercase alphabet
+
+Input 3:
+3
+Output 3:
+Digit
+
+Input 4:
+#
+Output 4:
+Special character
 
 */
