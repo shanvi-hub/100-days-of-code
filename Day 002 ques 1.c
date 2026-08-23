@@ -2,6 +2,7 @@ Q3: Write a program to calculate the area and perimeter of a rectangle given its
 
 #include<stdio.h>
 int main(){
+    
     int area;
     int perimeter;
     int length;
