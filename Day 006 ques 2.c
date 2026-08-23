@@ -3,7 +3,6 @@ Q12: Write a program to input an integer and check whether it is positive, negat
 #include<stdio.h>
 int main(){
 
-
 int num;
 
     printf("Enter an integer: ");
