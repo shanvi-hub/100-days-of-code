@@ -6,6 +6,7 @@ Above at ₹12/unit
 
 #include <stdio.h>
 int main() {
+    
     int units;
     float bill = 0;
 
