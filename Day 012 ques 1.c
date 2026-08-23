@@ -6,6 +6,7 @@ More than 30 days: Membership Cancelled.
 
 #include <stdio.h>
 int main() {
+    
     int days;
     int fine = 0;
 
