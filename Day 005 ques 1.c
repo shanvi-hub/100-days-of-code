@@ -3,6 +3,7 @@ Q9: Write a program to calculate simple and compound interest for given principa
 #include<stdio.h>
 #include<math.h>
 int main(){
+    
     float principal;
     float time;
     float rate;
