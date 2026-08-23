@@ -2,13 +2,11 @@ Q26: Write a program to print numbers from 1 to n.
 
 #include <stdio.h>
 int main() {
+    
     int n, i;
 
-    // Read the upper limit from the user
     scanf("%d", &n);
-
-    // Loop from 1 to n and print each number followed by a space
-    for(i = 1; i <= n; i++) {
+    
         printf("%d ", i);
     }
 
