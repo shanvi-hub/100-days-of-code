@@ -2,6 +2,7 @@ Q21: Write a program to display the month name and number of days using switch-c
 
 #include <stdio.h>
 int main() {
+    
     int month;
 
     printf("Enter month number: ");
