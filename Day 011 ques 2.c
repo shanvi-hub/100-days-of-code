@@ -2,6 +2,7 @@ Q22: Write a program to find profit or loss percentage given cost price and sell
 
 #include <stdio.h>
 int main() {
+    
     float cp, sp, profit, loss, percentage;
 
     if (scanf("%f %f", &cp, &sp) != 2) {
