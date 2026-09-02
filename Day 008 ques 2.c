@@ -17,6 +17,8 @@ int num1, num2, num3;
         printf("Largest is %d\n", num3);
     }
 
+    return;
+
 }
 
 
