@@ -11,6 +11,8 @@ int main(){
     fahrenheit = (celsius * 9/5)+32;
     printf("%f\n", fahrenheit);
 
+    return;
+
 }
 
 
