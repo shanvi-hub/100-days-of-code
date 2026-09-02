@@ -15,6 +15,8 @@ Q36: Write a program to find the HCF (GCD) of two numbers.
 
     printf("%d\n", num1);
 
+    return;
+
 }
 
 
