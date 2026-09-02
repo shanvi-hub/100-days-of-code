@@ -20,6 +20,8 @@ Q32: Write a program to check if a number is a palindrome.
         printf("Not palindrome\n");
     }
 
+      return;
+
 }
 
 
