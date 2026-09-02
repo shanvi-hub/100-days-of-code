@@ -21,6 +21,8 @@ int main(){
 
     printf("%f %f\n", simple_interest, compound_interest);
 
+    return;
+
 }
 
 
