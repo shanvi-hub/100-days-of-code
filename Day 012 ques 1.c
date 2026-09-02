@@ -32,6 +32,8 @@ int main() {
         printf("Membership Cancelled\n");
     }
 
+    return;
+
 }
 
 
