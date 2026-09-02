@@ -12,6 +12,8 @@ Q35: Write a program to print all factors of a given number.
         }
     }
 
+  return;
+
 }
 
 
