@@ -13,6 +13,8 @@ int main() {
         printf("Not a leap year\n");
     }
 
+    return;
+
 }
 
 
