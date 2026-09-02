@@ -21,6 +21,8 @@ int main() {
         printf("Not Armstrong\n");
     }
 
+      return;
+
 }
 
 
