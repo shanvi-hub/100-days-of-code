@@ -14,7 +14,9 @@ Q46: Write a program to print the following pattern:
         }
         printf("\n");
     }
-    
+
+return;
+
 }
 
 
