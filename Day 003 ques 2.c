@@ -16,6 +16,8 @@ Q6: Write a program to swap two numbers using a third variable.
     num2 = temp;
 
     printf("After swap: %d %d\n", num1, num2);
+
+    return;
  
 }
 
