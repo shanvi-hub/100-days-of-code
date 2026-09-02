@@ -16,6 +16,7 @@ r
 
     printf("Reversed Number: %d\n", reversedNum);
 
+    return;
 }
 
 
