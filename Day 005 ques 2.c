@@ -20,6 +20,8 @@ int seconds;
 
       printf("%d:%d:%d\n", hours,minutes,seconds);
 
+    return;
+
 }
 
 
