@@ -19,6 +19,7 @@ int main() {
         printf("Factorial of %d = %llu\n", num, fact);
     }
 
+    return;
 }
 
 
