@@ -33,6 +33,8 @@ int main(){
         printf("Invalid input! Please enter a number between 0 and 100.\n");
     }
 
+    return;
+
 }
 
 
