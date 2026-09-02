@@ -20,6 +20,8 @@ int main() {
 
     printf("1's complement: %s\n", binary);
 
+     return;
+
 }
 
 
