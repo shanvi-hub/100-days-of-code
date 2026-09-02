@@ -21,6 +21,8 @@ int main() {
 
     printf("Product of odd digits: %d\n", product);
 
+     return;
+
 }
 
 
