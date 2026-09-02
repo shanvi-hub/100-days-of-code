@@ -15,6 +15,8 @@ int main(){
 
     printf("%d,%d\n",area,perimeter);
 
+    return;
+
 }
 
 
