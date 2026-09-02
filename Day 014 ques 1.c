@@ -15,6 +15,8 @@ int main() {
     
     printf("%d\n", sum);
 
+    return;
+
 }
 
 
