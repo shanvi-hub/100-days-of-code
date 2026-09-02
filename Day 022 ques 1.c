@@ -27,6 +27,8 @@ int main() {
         printf("Not strong number\n");
     }
 
+    return;
+
 }
 
 
