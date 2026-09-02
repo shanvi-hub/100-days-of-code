@@ -18,7 +18,8 @@ int num;
     } else {
         printf("Negative\n");
     }
-    
+
+    return;
 }
 
 
