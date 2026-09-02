@@ -49,6 +49,8 @@ int main() {
             printf("Invalid month number! Please enter between 1 and 12.\n");
     }
 
+    return;
+
 }
 
 
