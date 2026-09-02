@@ -28,6 +28,8 @@ int main() {
 
     printf("Bill: ₹%.2f\n", bill);
 
+    return;
+
 }
 
 
