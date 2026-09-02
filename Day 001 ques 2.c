@@ -19,6 +19,8 @@ printf("%d\n",diff);
 printf("%d\n",product);
 printf("%d\n",quotient);
 
+  return;
+
 }
 
 
