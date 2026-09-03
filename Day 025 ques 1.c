@@ -10,11 +10,11 @@ Q49: Write a program to print the following pattern:
   
     int i, j;
     for(i=5;i>=1;i--){
-    for(j=i;j<=5;j++){
+       for(j=i;j<=5;j++){
 
        printf("%d",j);
    }
-       printf("\n");
+         printf("\n");
    }
 
 return 0;
